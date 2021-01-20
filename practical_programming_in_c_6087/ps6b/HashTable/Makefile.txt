@@ -1,0 +1,2 @@
+HashTable: HashTable.c
+	gcc -Wall HashTable.c -o HashTable

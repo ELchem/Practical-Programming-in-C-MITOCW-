@@ -1,0 +1,2 @@
+a: main1.c LIFE.c
+	gcc main1.c LIFE.c -o a

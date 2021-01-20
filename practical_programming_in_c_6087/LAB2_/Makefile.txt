@@ -1,0 +1,2 @@
+a: BookCompression.c Decoder.c
+	gcc BookCompression.c Decoder.c -o a

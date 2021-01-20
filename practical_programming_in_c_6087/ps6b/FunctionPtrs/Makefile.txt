@@ -1,0 +1,2 @@
+FunctionPtrs: FunctionPtrs.c
+	gcc -Wall FunctionPtrs.c -o FunctionPtrs

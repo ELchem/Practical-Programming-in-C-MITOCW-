@@ -1,0 +1,9 @@
+a: SqlProjD.c sqlib.a
+	gcc -o a SqlProjD.c sqlib.a
+sqlib.a: sqlite3.o sqlprojLibrary.o
+	ar -cvq sqlib.a sqlite3.o sqlprojLibrary.o
+sqlite3.o: sqlite3.c
+	gcc -c sqlite3.c
+sqlprojLibrary.o: sqlprojLibrary.c
+	gcc -c sqlprojLibrary.c
+
